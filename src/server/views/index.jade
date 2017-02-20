@@ -1,0 +1,11 @@
+doctype
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        title Test Title
+        link(rel='stylesheet', href='/assets/css/home.css')
+    body
+        div.root(id="root")
+        script(type='text/javascript').
+            var rows = !{JSON.stringify(rows)};
+        script(src='/assets/javascripts/home.js')
