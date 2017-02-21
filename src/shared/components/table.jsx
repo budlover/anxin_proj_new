@@ -16,21 +16,21 @@ const React = require('react');
 
                 
 const columns = [
-    {title: 'PEP', dataIndex: 'PEP', key:'PEP', width: 100},
-    {title: 'PEP Desc.', dataIndex: 'PEP Description', key:'PEP Description', width: 250},
-    {title: 'BE Location', dataIndex: 'Backend Location', key:'Backend Location', width: 100},
-    {title: 'Component1', dataIndex: 'Component Level 1', key:'Component Level 1', width: 100},
-    {title: 'Component1 Desc.', dataIndex: 'Component Level 1 Desc.', key:'Component Level 1 Desc.', width: 300},
-    {title: 'Component1 Category', dataIndex: 'Component Level 1 Category', key:'Component Level 1 Category', width: 100},
-    {title: 'Component2', dataIndex: 'Component Level 2', key:'Component Level 2', width: 100},
-    {title: 'Component2 Desc.', dataIndex: 'Component Level 2 Desc.', key:'Component Level 2 Desc.', width: 200},
-    {title: 'Component2 Category', dataIndex: 'Component Level 2 Category', key:'Component Level 2 Category', width: 100},
-    {title: 'Component2 Location', dataIndex: 'Component Level 2 Location', key:'Component Level 2 Location', width: 100},
-    {title: 'Component3', dataIndex: 'Component Level 3', key:'Component Level 3', width: 100},
-    {title: 'Component3 Desc.', dataIndex: 'Component Level 3 Desc.', key:'Component Level 3 Desc.', width: 200},
-    {title: 'Component3 Category', dataIndex: 'Component Level 3 Category', key:'Component Level 3 Category', width: 100},
-    {title: 'Component3 Location', dataIndex: 'Component Level 3 Location', key:'Component Level 3 Location', width: 100},
-    {title: 'Net Good Die', dataIndex: 'Net Good Die', key:'Net Good Die', width: 100},
+    {title: 'PEP', dataIndex: 'PEP', key:'PEP', width: 100%},
+    {title: 'PEP Desc.', dataIndex: 'PEP Description', key:'PEP Description', width: 100%},
+    {title: 'BE Location', dataIndex: 'Backend Location', key:'Backend Location', width: 100%},
+    {title: 'Component1', dataIndex: 'Component Level 1', key:'Component Level 1', width: 100%},
+    {title: 'Component1 Desc.', dataIndex: 'Component Level 1 Desc.', key:'Component Level 1 Desc.', width: 100%},
+    {title: 'Component1 Category', dataIndex: 'Component Level 1 Category', key:'Component Level 1 Category', width: 100%},
+    {title: 'Component2', dataIndex: 'Component Level 2', key:'Component Level 2', width: 100%},
+    {title: 'Component2 Desc.', dataIndex: 'Component Level 2 Desc.', key:'Component Level 2 Desc.', width: 100%},
+    {title: 'Component2 Category', dataIndex: 'Component Level 2 Category', key:'Component Level 2 Category', width: 100%},
+    {title: 'Component2 Location', dataIndex: 'Component Level 2 Location', key:'Component Level 2 Location', width: 100%},
+    {title: 'Component3', dataIndex: 'Component Level 3', key:'Component Level 3', width: 100%},
+    {title: 'Component3 Desc.', dataIndex: 'Component Level 3 Desc.', key:'Component Level 3 Desc.', width: 100%},
+    {title: 'Component3 Category', dataIndex: 'Component Level 3 Category', key:'Component Level 3 Category', width: 100%},
+    {title: 'Component3 Location', dataIndex: 'Component Level 3 Location', key:'Component Level 3 Location', width: 100%},
+    {title: 'Net Good Die', dataIndex: 'Net Good Die', key:'Net Good Die', width: 100%},
 ];
 
 module.exports = React.createClass({
