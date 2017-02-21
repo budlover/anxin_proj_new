@@ -43,7 +43,7 @@ module.exports = React.createClass({
                 <Table
                     useFixedHeader
                     columns={columns}
-                    scroll={{x:true, y:200}}
+                    scroll={{x:true, y:500}}
                     data={rows}
                  />
             </div>
