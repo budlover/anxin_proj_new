@@ -13,12 +13,7 @@ const React = require('react');
 //     { name: 'Rose', age: 36, address: 'some where', key:'2' }
 // ];
 
-<Table
-    useFixedHeader
-    columns={columns}
-    scroll={{x:true, y:200}}
-    data={rows}
-/>
+
                 
 const columns = [
     {title: 'PEP', dataIndex: 'PEP', key:'PEP'},
@@ -46,10 +41,11 @@ module.exports = React.createClass({
             <div>
                 <h1>Demo Table - PG Logic BOM</h1>
                 <Table
+                    useFixedHeader
                     columns={columns}
-                    scroll={{x:true, y:500}}
+                    scroll={{x:true, y:200}}
                     data={rows}
-                />
+                 />
             </div>
         );
     }
