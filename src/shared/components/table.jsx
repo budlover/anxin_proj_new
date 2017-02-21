@@ -13,13 +13,19 @@ const React = require('react');
 //     { name: 'Rose', age: 36, address: 'some where', key:'2' }
 // ];
 
+<Table
+    useFixedHeader
+    columns={columns}
+    scroll={{x:true, y:200}}
+    data={rows}
+/>
 
 const columns = [
-    {title: 'PEP', dataIndex: 'PEP', key:'PEP', width: 300},
-    {title: 'PEP Description', dataIndex: 'PEP Description', key:'PEP Description', width: 300},
-    {title: 'Backend Location', dataIndex: 'Backend Location', key:'Backend Location', width: 300},
-    {title: 'Component Level 1', dataIndex: 'Component Level 1', key:'Component Level 1', width: 300},
-    {title: 'Component Level 1 Desc.', dataIndex: 'Component Level 1 Desc.', key:'Component Level 1 Desc.', width: 300},
+    {title: 'PEP', dataIndex: 'PEP', key:'PEP', width: 100},
+    {title: 'PEP Description', dataIndex: 'PEP Description', key:'PEP Description', width: 100},
+    {title: 'Backend Location', dataIndex: 'Backend Location', key:'Backend Location', width: 100},
+    {title: 'Component Level 1', dataIndex: 'Component Level 1', key:'Component Level 1', width: 100},
+    {title: 'Component Level 1 Desc.', dataIndex: 'Component Level 1 Desc.', key:'Component Level 1 Desc.', width: 100},
     {title: 'Component Level 1 Category', dataIndex: 'Component Level 1 Category', key:'Component Level 1 Category', width: 100},
     {title: 'Component Level 2', dataIndex: 'Component Level 2', key:'Component Level 2', width: 100},
     {title: 'Component Level 2 Desc.', dataIndex: 'Component Level 2 Desc.', key:'Component Level 2 Desc.', width: 100},
