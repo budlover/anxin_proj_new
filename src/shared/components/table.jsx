@@ -13,12 +13,14 @@ const React = require('react');
 //     { name: 'Rose', age: 36, address: 'some where', key:'2' }
 // ];
 
-<Table
-    useFixedHeader
-    columns={columns}
-    scroll={{x:true, y:200}}
-    data={rows}
-/>
+<Table style = 'width: 100%;">
+                
+//<Table
+//    useFixedHeader
+//    columns={columns}
+//    scroll={{x:true, y:200}}
+//    data={rows}
+///>
 // {title: 'Backend Location', dataIndex: 'Backend Location', key:'Backend Location', width: 200}
 const columns = [
     {title: 'PEP', dataIndex: 'PEP', key:'PEP'},
