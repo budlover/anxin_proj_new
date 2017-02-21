@@ -41,7 +41,7 @@ module.exports = React.createClass({
                 <h1>Demo Table</h1>
                 <Table
                     columns={columns}
-                    scroll={{x:200, y:200}}
+                    scroll={{x:200, y:500}}
                     data={rows}
                 />
             </div>
