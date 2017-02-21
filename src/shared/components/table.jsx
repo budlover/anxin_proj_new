@@ -15,7 +15,7 @@ const React = require('react');
 
 <Table style = 'width: 100%;">
                 
-// {title: 'Backend Location', dataIndex: 'Backend Location', key:'Backend Location', width: 200}
+//     {title: 'Backend Location', dataIndex: 'Backend Location', key:'Backend Location', width: 200}
 const columns = [
     {title: 'PEP', dataIndex: 'PEP', key:'PEP'},
     {title: 'PEP Description', dataIndex: 'PEP Description', key:'PEP Description'},
