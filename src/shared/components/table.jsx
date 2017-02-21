@@ -17,10 +17,10 @@ const React = require('react');
                 
 const columns = [
     {title: 'PEP', dataIndex: 'PEP', key:'PEP', width: 100},
-    {title: 'PEP Desc.', dataIndex: 'PEP Description', key:'PEP Description', width: 200},
+    {title: 'PEP Desc.', dataIndex: 'PEP Description', key:'PEP Description', width: 250},
     {title: 'BE Location', dataIndex: 'Backend Location', key:'Backend Location', width: 100},
     {title: 'Component1', dataIndex: 'Component Level 1', key:'Component Level 1', width: 100},
-    {title: 'Component1 Desc.', dataIndex: 'Component Level 1 Desc.', key:'Component Level 1 Desc.', width: 200},
+    {title: 'Component1 Desc.', dataIndex: 'Component Level 1 Desc.', key:'Component Level 1 Desc.', width: 300},
     {title: 'Component1 Category', dataIndex: 'Component Level 1 Category', key:'Component Level 1 Category', width: 100},
     {title: 'Component2', dataIndex: 'Component Level 2', key:'Component Level 2', width: 100},
     {title: 'Component2 Desc.', dataIndex: 'Component Level 2 Desc.', key:'Component Level 2 Desc.', width: 200},
