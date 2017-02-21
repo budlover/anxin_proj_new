@@ -16,7 +16,7 @@ const React = require('react');
 
 const columns = [
     {title: 'PEP', dataIndex: 'PEP', key:'PEP', width: 100},
-    {title: 'PEP Description', dataIndex: 'PEP Description', key:'PEP Description', width: 100},
+    {title: 'PEP Description', dataIndex: 'PEP Description', key:'PEP Description', width: 300},
     {title: 'Backend Location', dataIndex: 'Backend Location', key:'Backend Location', width: 100},
     {title: 'Component Level 1', dataIndex: 'Component Level 1', key:'Component Level 1', width: 100},
     {title: 'Component Level 1 Desc.', dataIndex: 'Component Level 1 Desc.', key:'Component Level 1 Desc.', width: 100},
