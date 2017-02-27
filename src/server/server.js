@@ -1,12 +1,17 @@
-var express = require('express');
-var react = require('react');
-var path = require('path');
-
+const express = require('express');
+const path = require('path');
+const bodyParser = require('body-parser');
 const server = express();
-server.use('/assets', express.static(path.join(__dirname, '..', '..', 'dist', 'assets'))); // express.static('assets'));
+const port = 8080;
 
+server.use('/assets', express.static(path.join(__dirname, '..', '..', 'dist', 'assets'))); // express.static('assets'));
 server.set('views', path.join(__dirname, 'views'));
 server.set('view engine', 'jade');
+
+// support json encoded bodies
+server.use(bodyParser.json());
+// support encoded bodies
+server.use(bodyParser.urlencoded({extended:true}));
 
 // connect to sql server
 var sql = require("seriate");
@@ -21,18 +26,7 @@ var config = {
 sql.setDefaultConfig(config);
 
 // route
-server.get('/', function(req, res) {
-    sql.execute({
-        query: 'select TOP 10 * from vBOM_LOCATION_USER'
-    }).then( function(rows) {
-        console.log(rows);
-        res.render('index', {
-            rows: rows
-        });
-    }, function(err) {
-        console.log("Something bad happened: ", err);
-    });
-});
+server.use(require('./controllers'));
 
-server.listen(8080);
-console.log('listening');
+server.listen(port);
+console.log('listening port: ' + port);
